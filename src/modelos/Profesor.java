@@ -25,6 +25,10 @@ public class Profesor {
     public void anadirParalelos(Paralelo p){
         paralelos.add(p);
     }
-    
+    public double calcularSueldo(Profesor prof){
+        double sueldo=0;
+        sueldo= info.añosdeTrabajo*600 + info.BonoFijo;
+        return sueldo;
+    }  
     
 }
