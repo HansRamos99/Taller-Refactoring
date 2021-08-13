@@ -35,7 +35,11 @@ public class Paralelo {
     
     //Imprime el listado de estudiantes registrados
     public void mostrarListado(){
-        //No es necesario implementar
+        int i=1;
+        for(Estudiante e: estudiantes){
+            System.out.println(i+". "+e.nombre+" "+e.apellido);
+            i++;
+    }
     }
     
     
